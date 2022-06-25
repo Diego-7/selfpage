@@ -1,4 +1,4 @@
-alert('Olá! Seja bem vindo a sua página inerativa!');
+alert('Olá! Seja bem vindo a sua página interativa!');
 
 const backPageColor = document.querySelector('body'); 
 
@@ -12,6 +12,8 @@ function background(){
         case 'amarelo' : backPageColor.style.backgroundColor = '#FCD41C'; break; 
         case 'rosa' : backPageColor.style.backgroundColor = '#F8A5FF'; break; 
         case 'marrom' : backPageColor.style.backgroundColor = '#91462F'; break; 
+        case 'vermelho' : backPageColor.style.backgroundColor = '#CD0000'; break; 
+        case 'roxo' : backPageColor.style.backgroundColor = '#910BFF'; break; 
         case 'preto' : backPageColor.style.backgroundColor = '#000'; break; 
         default : backPageColor.style.backgroundColor = '#fff';
     };
