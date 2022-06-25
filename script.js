@@ -32,6 +32,27 @@ campTitle.innerHTML = pageTitle;
 
 chooseTitle();
 
+function fontColor(){
+    const textColor = document.querySelector('body');
+
+    let chooseColor = prompt('Agora escolha a cor dos textos:');
+
+    switch(chooseColor){
+        case 'branco' : textColor.style.color = '#fff'; break;
+        case 'azul' : textColor.style.color = '#0264F5'; break;
+        case 'verde' : textColor.style.color = '#25F21B'; break;
+        case 'amarelo' : textColor.style.color = '#FCD41C'; break;
+        case 'rosa' : textColor.style.color = '#F8A5FF'; break;
+        case 'marrom' : textColor.style.color = '#91462F'; break;
+        case 'vermelho' : textColor.style.color = '#CD0000'; break;
+        case 'roxo' : textColor.style.color = '#910BFF'; break;
+        case 'preto' : textColor.style.color = '#000'; break;
+        default : textColor.style.color = '#fff';
+    };
+}
+
+fontColor();
+
 function backImg(){
     const image = document.getElementById('backgroundImg');
 
