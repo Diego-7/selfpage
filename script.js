@@ -47,7 +47,7 @@ function fontColor(){
         case 'vermelho' : textColor.style.color = '#CD0000'; break;
         case 'roxo' : textColor.style.color = '#910BFF'; break;
         case 'preto' : textColor.style.color = '#000'; break;
-        default : textColor.style.color = '#fff';
+        default : textColor.style.color = '#000';
     };
 }
 
